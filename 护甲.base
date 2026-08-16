@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "护甲"
+    order:
+      - file.basename
+      - file.fullname
+      - 护甲类别
+      - 力量要求
+      - AC基础
+      - 敏捷加值
+      - 隐匿劣势
+      - 着装
+      - 卸除
+      - 重量
+      - 价格
+      - file.ctime
+    sort:
+      - property: 价格
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
