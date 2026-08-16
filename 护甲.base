@@ -6,6 +6,7 @@ views:
         - file.folder == "护甲"
     order:
       - file.basename
+      - 英文
       - file.fullname
       - 护甲类别
       - 力量要求
@@ -14,7 +15,7 @@ views:
       - 隐匿劣势
       - 着装
       - 卸除
-      - 重量
+      - 重量（磅）
       - 价格
       - file.ctime
     sort:

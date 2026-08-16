@@ -4,3 +4,16 @@ views:
     filters:
       and:
         - file.folder == "武器"
+    order:
+      - file.name
+      - file.fullname
+      - 英文
+      - 伤害
+      - 伤害类型
+      - 武器属性
+      - 重量（磅）
+      - 价格
+      - file.ctime
+    sort:
+      - property: 重量
+        direction: DESC
