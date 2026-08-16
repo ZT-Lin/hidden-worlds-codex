@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder.endsWith("环法术")
+    order:
+      - file.name
+      - 英文
+      - 法术学派
+      - 环阶
+      - 语言 V
+      - 姿势 S
+      - 材料 M
+      - 施法时间
+      - 施法距离
+      - 持续时间
+      - 仪式
+      - 专注
+      - 升环
+    sort: []
