@@ -8,6 +8,7 @@ views:
       - file.name
       - file.fullname
       - 英文
+      - 武器类别
       - 伤害
       - 伤害类型
       - 武器属性
@@ -15,5 +16,9 @@ views:
       - 价格
       - file.ctime
     sort:
+      - property: 武器类别
+        direction: DESC
+      - property: file.name
+        direction: ASC
       - property: 重量
         direction: DESC
