@@ -16,11 +16,5 @@ views:
       - 价格
       - file.ctime
     sort:
-      - property: file.ctime
-        direction: DESC
-      - property: 武器类别
-        direction: ASC
-      - property: file.name
-        direction: ASC
       - property: 重量
         direction: DESC
