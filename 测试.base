@@ -6,15 +6,14 @@ views:
         - file.folder == "武器"
     order:
       - file.name
-      - file.fullname
       - 英文
+      - tags
       - 武器类别
       - 伤害
       - 伤害类型
-      - 武器属性
       - 重量（磅）
       - 价格
-      - file.ctime
+      - 武器属性
     sort:
-      - property: 重量
+      - property: 武器类别
         direction: DESC
