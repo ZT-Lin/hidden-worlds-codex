@@ -1,14 +1,14 @@
 views:
   - type: table
     name: 表格
-    filters:
-      and:
-        - file.folder == "种族/亚种"
     order:
       - file.name
-      - tags
       - 笔记类别
+      - aliases
+      - 英文
     sort:
+      - property: 英文
+        direction: ASC
       - property: 维度
         direction: ASC
       - property: 伤害类型
@@ -16,4 +16,5 @@ views:
       - property: 武器类别
         direction: DESC
     columnSize:
+      file.name: 115
       note.tags: 370
