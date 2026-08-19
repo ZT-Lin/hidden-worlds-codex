@@ -3,12 +3,13 @@ views:
     name: 表格
     filters:
       and:
-        - file.inFolder("武器")
+        - file.inFolder("法术/魔法学派")
     order:
       - file.name
       - 笔记类别
       - tags
-      - 武器类别
+      - 英文
+      - aliases
     sort:
       - property: 笔记类别
         direction: ASC
