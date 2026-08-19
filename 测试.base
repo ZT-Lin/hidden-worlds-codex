@@ -1,9 +1,13 @@
 views:
   - type: table
     name: 表格
+    filters:
+      and:
+        - file.folder == "种族/亚种"
     order:
       - file.name
       - tags
+      - 笔记类别
     sort:
       - property: 维度
         direction: ASC
