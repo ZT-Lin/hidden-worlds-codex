@@ -3,13 +3,10 @@ views:
     name: 表格
     filters:
       and:
-        - file.inFolder("法术/魔法学派")
+        - file.inFolder("职业/牧师领域/神力")
     order:
       - file.name
       - 笔记类别
-      - tags
-      - 英文
-      - aliases
     sort:
       - property: 笔记类别
         direction: ASC
