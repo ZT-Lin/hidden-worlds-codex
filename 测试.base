@@ -3,11 +3,21 @@ views:
     name: 表格
     filters:
       and:
-        - file.inFolder("职业/牧师领域/神力")
+        - file.folder == "职业"
     order:
       - file.name
       - 笔记类别
+      - 生命骰
+      - 豁免项
+      - 施法职业
+      - 熟练工具
+      - 熟练护甲
+      - 熟练技能
+      - 熟练武器
+      - 子职业
     sort:
+      - property: 施法职业
+        direction: ASC
       - property: 笔记类别
         direction: ASC
       - property: 英文
@@ -20,4 +30,4 @@ views:
         direction: DESC
     columnSize:
       file.name: 115
-      note.tags: 370
+      note.熟练技能: 597
