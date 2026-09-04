@@ -3,7 +3,7 @@ views:
     name: 表格
     filters:
       and:
-        - file.folder == "职业"
+        - 维度 == link("感知")
     order:
       - file.name
       - 兼职条件
