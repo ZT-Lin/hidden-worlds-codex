@@ -8,9 +8,10 @@ views:
       - file.name
       - 武器类别
       - 武器属性
+      - 伤害
     sort:
-      - property: 武器类别
-        direction: ASC
+      - property: 伤害
+        direction: DESC
       - property: 兼职条件
         direction: ASC
       - property: 施法职业
